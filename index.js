@@ -1,6 +1,6 @@
 // Your code here
 
-
+Calculator={}
 
 
 function saturdayFun(activity="roller-skate") {
@@ -12,7 +12,8 @@ function mondayWork(activity="go to the office") {
 }
 
 function wrapAdjective(parm="special",spec="*") {
-  return function(parm) {
+  return function() {
     return `You are ${spec}${parm}${spec}!`
+
   }
 }
