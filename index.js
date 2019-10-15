@@ -1,6 +1,6 @@
 // Your code here
 
-let Calculator={}
+let Calculator={add: function add(){}}
 
 
 function saturdayFun(activity="roller-skate") {
